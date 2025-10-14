@@ -5,7 +5,7 @@ Step 01:
 
 Create virtual environment using UV:
 
-uv venv books
+uv venv book
 
 source .venv\Scripts\activate
 
