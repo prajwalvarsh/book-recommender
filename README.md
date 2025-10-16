@@ -1,11 +1,6 @@
-# Book-Recommender
-Collaborative Filtering Book Recommendation
+# End-to-End-Book-Recommender-System
 
-python==3.7.9
-
-Check requirements.txt for compatible verions of pandas and numpy with python 3.7.*
-
-# workflow
+# Workflow
 
 - config.yaml
 - entity
@@ -14,12 +9,27 @@ Check requirements.txt for compatible verions of pandas and numpy with python 3.
 - pipeline
 - main.py
 - app.py
+# How to run?
 
-# step 01
+# STEPS:
 
-Create virtual environment using UV:
+Clone the repository
 
-uv venv book
+# STEP 01- Create a conda environment after opening the repository
 
-source .venv\Scripts\activate
+'''
+conda create -n books python=3.7.10 -y
+
+'''
+
+conda activate books
+
+
+# STEP 02- install the requirements
+
+pip install -r requirements.txt
+
+Now run,
+
+streamlit run app.py
 
